@@ -3,19 +3,19 @@
 [English](#english) · [中文](#中文)
 
 因为我很懒所以用了cursor打辅助，但是这玩意不是vibe的是我手搓的
-（MIUI14的动画那么好看怎么没有人做模块的，平板还得分四个方向更没人做了）
+（MIUI14的动画那么好看怎么没有人做模块的）
 
-手机版在这里 → [MIUI14-bootanimate-module](https://github.com/ZenoRasta/MIUI14-bootanimate-module)
+手机版 [MIUI14-bootanimate-module](https://github.com/ZenoRasta/MIUI14-bootanimate-module)
 
 ---
 
 ## 中文
 
-将澎湃3开机动画替换为经典 **MIUI 14** 样式的 Magisk/KernelSU 模块，**平板四方向适配版**。
+将澎湃3开机动画替换为经典 **MIUI 14** 样式的 Magisk/KernelSU 模块，平板四方向适配版。
 
 ### 特性
 
-- **无侵入挂载**：通过 Magisk/KernelSU Magic Mount 覆盖 `bootanimation01~04.zip`，不修改 `/system` 分区实体文件
+- **无侵入挂载**：通过Magisk/KernelSU Magic Mount覆盖`bootanimation01~04.zip`，不修改`/system`分区实体文件
 - **MIUI 14 样式动画**：提取自 REDMI K30 Pro Zoom Edition，按屏幕方向提供四套资源
 - **四方向映射**：
   - `bootanimation01.zip` → 270°（2340×1080）
@@ -31,19 +31,18 @@
 
 | 项目 | 要求 |
 |------|------|
-| Root 实现 | Magisk **v20.4+** 或 KernelSU（兼容 Magisk 模块格式） |
-| 目标系统 | HyperOS 3 平板 / MIUI 平板（使用 `bootanimation01~04.zip` 读取路径的 ROM） |
-| 参考机型 | 小米平板 6 Pro（其他平板请自行测试） |
+| Root 实现 | Magisk v20.4+或KernelSU |
+| 目标系统 | HyperOS 3 平板届使用 `bootanimation01~04.zip` 读取路径的 ROM） |
 
 ### 安装
 
 1. 从 [Releases](https://github.com/ZenoRasta/MIUI14-bootanimate-module-pad/releases) 下载最新 Release（不是下载源码 zip！不然活该装不上）
-2. 在 Magisk/Ksu 管理器中模块 → 从本地安装，选择从 Release 下载的 zip
+2. 在Magisk/Ksu中从本地安装模块，选择从Release下载的zip
 3. 安装完成后重启设备
 
 ### 卸载
 
-在 Magisk/KernelSU 中禁用或卸载本模块，重启就恢复系统原装开机动画
+在Magisk/KernelSU中禁用或卸载本模块，重启恢复系统原装开机动画
 
 ### 开放源代码许可
 
@@ -76,8 +75,7 @@ Phone version → [MIUI14-bootanimate-module](https://github.com/ZenoRasta/MIUI1
 | Item | Requirement |
 |------|-------------|
 | Root | Magisk **v20.4+** or KernelSU (Magisk module format) |
-| Target OS | HyperOS 3 / MIUI tablets using `bootanimation01~04.zip` paths |
-| Reference device | Xiaomi Pad 6 Pro (test on other tablets at your own risk) |
+| Target OS | HyperOS 3 tablets using `bootanimation01~04.zip` paths |
 
 ### Installation
 
